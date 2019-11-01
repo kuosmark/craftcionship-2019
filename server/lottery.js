@@ -33,7 +33,6 @@ const getWinner = async () => {
     const contestantsQuery = queries.getContestants(getCurrentTime())
     const contestantsQueryResults = await getQueryResults(contestantsQuery)
     let contestants = contestantsQueryResults.listUsers.items
-    console.log('CONTESTANTS', contestants)
     // Filter people that have already won:
     contestants = contestants.filter(c => !c.winner)
     // Return null if no contestants:
@@ -44,7 +43,6 @@ const getWinner = async () => {
     const winner = contestants[Math.floor(Math.random() * contestants.length)]
     const winnerQuery = queries.postNewWinner(winner.id, winner.date)
     const winnerQueryResults = await getQueryResults(winnerQuery)
-    console.log('The winner is', winnerQueryResults.updateUser.name)
     return winnerQueryResults.updateUser.name
   } catch (error) {
     console.error(
