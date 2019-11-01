@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import background from "../../resources/background.png";
 import meme from "../../resources/meme.jpg";
 import styles from "./Calendar.module.css";
@@ -8,8 +8,16 @@ import ModalFooter from "react-bootstrap/ModalFooter";
 import Modal from "react-bootstrap/Modal";
 import InputGroup from "react-bootstrap/InputGroup";
 import FormControl from "react-bootstrap/FormControl";
+import Button from "react-bootstrap/Button";
+import ButtonToolbar from "react-bootstrap/ButtonToolbar";
+import Form from "react-bootstrap/Form";
+import { useMutation } from "@apollo/react-hooks";
+import gql from "graphql-tag";
+
 const Calendar = props => {
   const [smShow, setSmShow] = useState(false);
+  const inputRef = useRef(null);
+
   return (
     <div className={styles.calendar}>
       <Modal
@@ -23,14 +31,18 @@ const Calendar = props => {
             id="example-modal-sizes-title-sm"
             style={{ width: "100px !important" }}
           >
-            Door 24
+            <div style={{ width: 100 }}>Door 24</div>
           </Modal.Title>
-          <InputGroup className="mb-3" style={{ width: "200px !important" }}>
+          <InputGroup>
             <FormControl
+              ref={inputRef}
               placeholder="Name"
               aria-label="Name"
-              aria-describedby="basic-addon1"
+              aria-describedby="basic-addon2"
             />
+            <InputGroup.Append>
+              <Button variant="outline-secondary">Go!</Button>
+            </InputGroup.Append>
           </InputGroup>
         </Modal.Header>
         <Modal.Body>
