@@ -153,20 +153,20 @@ const Calendar = props => {
         <img className={styles.calendar} src={background} />
         <Door
           number={24}
-          x={470}
-          y={590}
-          width={260}
-          height={220}
+          x={467}
+          y={395}
+          width={266}
+          height={155}
           image={meme1}
           setSmShow={setSmShow}
           setImage={setImage}
         />{" "}
         <Door
           number={23}
-          x={415}
-          y={620}
-          width={40}
-          height={140}
+          x={411}
+          y={419}
+          width={46}
+          height={95}
           image={meme2}
           setSmShow={setSmShow}
           setImage={setImage}
@@ -193,7 +193,9 @@ const Door = props => {
         border: "2px solid blue"
       }}
     >
-      {number}
+      <div className="door-title">
+        <h2>{number}</h2>
+      </div>
     </div>
   );
 };
