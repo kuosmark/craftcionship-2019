@@ -4,3 +4,4 @@ README.md
 .ebignore
 .eslintignore
 .eslintrc.json
+.env
