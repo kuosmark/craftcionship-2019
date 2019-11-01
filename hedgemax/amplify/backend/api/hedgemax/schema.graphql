@@ -1,0 +1,12 @@
+type User @model {
+  id: ID!
+  date: AWSTimestamp
+  name: String!
+  winner: AWSTimestamp
+}
+
+type Meme @model {
+  id: ID!
+  url: String!
+  name: String
+}

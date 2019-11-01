@@ -6,6 +6,7 @@ export const onCreateUser = `subscription OnCreateUser {
     id
     date
     name
+    winner
   }
 }
 `;
@@ -14,6 +15,7 @@ export const onUpdateUser = `subscription OnUpdateUser {
     id
     date
     name
+    winner
   }
 }
 `;
@@ -22,6 +24,7 @@ export const onDeleteUser = `subscription OnDeleteUser {
     id
     date
     name
+    winner
   }
 }
 `;
