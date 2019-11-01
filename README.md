@@ -16,4 +16,3 @@ Craftcionship competition 2019
   spirit.
  - **Web form** for Siilis to upload Christmas memes to be shown in the
     calendar.
-- **Slack bot** for posting the daily winners to Siili Slack.
