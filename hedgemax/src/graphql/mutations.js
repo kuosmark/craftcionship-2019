@@ -6,6 +6,7 @@ export const createUser = `mutation CreateUser($input: CreateUserInput!) {
     id
     date
     name
+    winner
   }
 }
 `;
@@ -14,6 +15,7 @@ export const updateUser = `mutation UpdateUser($input: UpdateUserInput!) {
     id
     date
     name
+    winner
   }
 }
 `;
@@ -22,6 +24,7 @@ export const deleteUser = `mutation DeleteUser($input: DeleteUserInput!) {
     id
     date
     name
+    winner
   }
 }
 `;
