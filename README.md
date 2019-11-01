@@ -10,6 +10,10 @@ Craftcionship competition 2019
 
 ## Plan for further development
 
-- **Siili AD Authentication** to ensure that every Siili can only participate once.
+- **Siili AD Authentication** to ensure that every Siili can only participate
+  once.
+- **24 calendar windows** which conceal hilarious memes to lift Christmas
+  spirit.
+  - **Web form** for Siilis to upload Christmas memes to be shown in the
+    calendar.
 - **Slack bot** for posting the daily winners to Siili Slack.
-- **Web form** for Siilis to upload Christmas memes to be shown in the calendar.
