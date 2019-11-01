@@ -14,6 +14,6 @@ Craftcionship competition 2019
   once.
 - **24 calendar windows** which conceal hilarious memes to lift Christmas
   spirit.
-  - **Web form** for Siilis to upload Christmas memes to be shown in the
+ - **Web form** for Siilis to upload Christmas memes to be shown in the
     calendar.
 - **Slack bot** for posting the daily winners to Siili Slack.
