@@ -2,7 +2,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    height: 1000px;
+    height: 675px;
     width: 1200px;
     z-index: 1;
 }
@@ -12,4 +12,15 @@
     border: 1px solid;
     z-index: 2;
     color: orangered;
+    border: dotted #333333 3px!important;
 }
+
+
+.door-title {
+
+}
+
+h2 {
+    font-size: 1.5em!important;
+}
+

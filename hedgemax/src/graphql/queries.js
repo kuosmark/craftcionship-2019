@@ -6,6 +6,7 @@ export const getUser = `query GetUser($id: ID!) {
     id
     date
     name
+    winner
   }
 }
 `;
@@ -19,6 +20,7 @@ export const listUsers = `query ListUsers(
       id
       date
       name
+      winner
     }
     nextToken
   }
