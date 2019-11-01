@@ -1,0 +1,14 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "hedgemax-prod-20191101101800-authRole",
+            "UnauthRoleArn": "arn:aws:iam::582503518267:role/hedgemax-prod-20191101101800-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::582503518267:role/hedgemax-prod-20191101101800-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "hedgemax-prod-20191101101800-deployment",
+            "UnauthRoleName": "hedgemax-prod-20191101101800-unauthRole",
+            "StackName": "hedgemax-prod-20191101101800",
+            "StackId": "arn:aws:cloudformation:eu-west-1:582503518267:stack/hedgemax-prod-20191101101800/1ef72e80-fc80-11e9-a8ef-0253f164fa34"
+        }
+    }
+}
