@@ -1,4 +1,0 @@
-{
-    "AppSyncApiName": "hedgemax",
-    "DynamoDBBillingMode": "PAY_PER_REQUEST"
-}
