@@ -1,0 +1,15 @@
+.calendar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1000px;
+    width: 1200px;
+    z-index: 1;
+}
+
+.door {
+    position: absolute;
+    border: 1px solid;
+    z-index: 2;
+    color: orangered;
+}
