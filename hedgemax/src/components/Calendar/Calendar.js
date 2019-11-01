@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import background from "../../resources/background.png";
+import meme from "../../resources/meme.jpg";
 import styles from "./Calendar.module.css";
 
 import ModalBody from "react-bootstrap/ModalBody";
@@ -32,7 +33,9 @@ const Calendar = props => {
             />
           </InputGroup>
         </Modal.Header>
-        <Modal.Body>...</Modal.Body>
+        <Modal.Body>
+          <img src={meme} width={700} height={500} />
+        </Modal.Body>
       </Modal>
 
       <img className={styles.calendar} src={background} />
