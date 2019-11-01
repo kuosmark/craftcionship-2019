@@ -1,13 +1,9 @@
-## Slack Service
-
-Run locally with nodemon in port 3002 with:
-
-`npm run watch`
+## Lottery Script
 
 Build Docker image locally:
 
-`docker build -t server .`
+`docker build -t script .`
 
 Run Docker container locally:
 
-`docker run -p 3001:3001 server`
+`docker run -p 3001:3001 script`
